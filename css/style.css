@@ -1,0 +1,125 @@
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    font-size: 18px;
+}
+
+.menu {
+    max-width: 496px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 25px 0;
+}
+
+.menu__item {
+    display: inline-block;
+    width: calc(20% - 4px);
+    text-align: center;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+}
+
+.menu__link:hover {
+    color: black;
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: #828282;
+    width: 970px;
+    margin: 0 auto;
+}
+
+.main_title {
+    font-size: 48px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.banner {
+    max-width: 970px;
+}
+
+.about {
+    text-align: center;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section:nth-of-type(even) {
+    background: #F6F6F6;
+}
+
+.section_title {
+    font-size: 34px;
+    margin-top: 0;
+}
+
+.about_title {
+    margin-bottom: 50px;
+}
+
+.text_about {
+    font-size: 18px;
+    margin: 0;
+}
+
+.text_about:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.skills{
+    text-align: center;    
+}
+
+.skills_title {
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 97px;
+}
+
+.figure {
+    margin: 0;
+}
+
+.product_icon {
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+.product_name {
+    font-size: 14px;
+    color: #828282;
+    margin-bottom: 60px;
+}
+
+.product_name_figma {
+    margin-bottom: 80px;
+}
