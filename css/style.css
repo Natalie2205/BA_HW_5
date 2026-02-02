@@ -68,7 +68,8 @@ body {
     margin-top: 0;
 }
 
-.about_title, .portfolio_title {
+.about_title,
+.portfolio_title {
     margin-bottom: 50px;
 }
 
@@ -81,7 +82,8 @@ body {
     margin-bottom: 30px;
 }
 
-.skills_title {
+.skills_title,
+.contacts_title {
     margin-bottom: 20px;
 }
 
@@ -127,4 +129,36 @@ body {
 
 .portfolio_figure:not(:last-child) {
     margin-bottom: 70px;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 16px;
+    border: solid 1px;
+    border-radius: 22px;
+    background-color: black;
+}
+
+.contacts-box {
+    list-style: none;
+    max-width: 310px;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_icon {
+    width: 40px;
+    height: auto;
+}
+
+.contacts_text {
+    font-size: 14px;
+    color: #828282;
+    margin-top: 60px;
+    margin-bottom: 0;
 }
