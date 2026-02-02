@@ -54,12 +54,9 @@ body {
     max-width: 970px;
 }
 
-.about {
-    text-align: center;
-}
-
 .section {
     padding: 100px 0;
+    text-align: center;
 }
 
 .section:nth-of-type(even) {
@@ -71,7 +68,7 @@ body {
     margin-top: 0;
 }
 
-.about_title {
+.about_title, .portfolio_title {
     margin-bottom: 50px;
 }
 
@@ -82,10 +79,6 @@ body {
 
 .text_about:not(:last-child) {
     margin-bottom: 30px;
-}
-
-.skills{
-    text-align: center;    
 }
 
 .skills_title {
@@ -122,4 +115,16 @@ body {
 
 .product_name_figma {
     margin-bottom: 80px;
+}
+
+.portfolio_image {
+    margin-bottom: 40px;
+}
+
+.page-description {
+    font-size: 18px;
+}
+
+.portfolio_figure:not(:last-child) {
+    margin-bottom: 70px;
 }
