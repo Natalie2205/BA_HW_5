@@ -34,6 +34,8 @@ body {
 
 .menu__link:hover {
     color: black;
+    font-weight: bold;
+    transition: all .2s ease-in;
 }
 
 .line {
@@ -142,6 +144,12 @@ body {
     background-color: black;
 }
 
+.button:hover {
+    background-color: yellowgreen;
+    transition: all .1s ease-in;
+    color: blue;
+}
+
 .contacts-box {
     list-style: none;
     max-width: 310px;
@@ -154,6 +162,11 @@ body {
 .contacts_icon {
     width: 40px;
     height: auto;
+}
+
+.contacts_icon:hover {
+    opacity: 0.5;
+    transition: all .1s ease-in;
 }
 
 .contacts_text {
